@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2022 Hoang Van Linh (Jenny) Nguyen
+Copyright (c) 2022 jennyvanlinh
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
