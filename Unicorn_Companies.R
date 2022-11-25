@@ -1,5 +1,4 @@
-setwd("~/LocalDocuments/Monash/FIT3179/Assignment 1")
-rm(list = ls())
+# remove setwd for privacy reason
 Unicorn_Companies = read.csv("Unicorn_Companies.csv")
 library(tidyverse)
 
