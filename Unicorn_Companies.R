@@ -1,4 +1,3 @@
-# remove setwd for privacy reason
 Unicorn_Companies = read.csv("Unicorn_Companies.csv")
 library(tidyverse)
 
