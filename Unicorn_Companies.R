@@ -1,3 +1,5 @@
+setwd("~/LocalDocuments/Monash/FIT3179/Assignment 1")
+rm(list = ls())
 Unicorn_Companies = read.csv("Unicorn_Companies.csv")
 library(tidyverse)
 
@@ -31,7 +33,7 @@ for (val in Unicorn_Companies$Letter) {
   if(val=="B"){
     Unicorn_Companies[count,9]<-Unicorn_Companies[count,9]*1000000000
   } else if(val=="M") {
-    Unicorn_Companies[count,9]<-Unicorn_Companies[count,9]*100000
+    Unicorn_Companies[count,9]<-Unicorn_Companies[count,9]*1000000
   } else if(val=="K") {
     Unicorn_Companies[count,9]<-Unicorn_Companies[count,9]*1000
   }
